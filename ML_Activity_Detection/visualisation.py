@@ -4,6 +4,10 @@ import math
 import csv
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument('-filepath', type=str')
+args = parser.parse_args()
+
 # Start a new run
 run = wandb.init(project='custom-charts')
 offset = random.random()
@@ -20,7 +24,7 @@ for run_step in range(20):
   }, commit=False)
 
   # Set up data to log in custom charts
-  data1 = open('/content/drive/MyDrive/Colab/ICT3104/testing_data/visualise.csv')
+  data1 = open(args.filepath)
 
   type(data1)
   csvreader = csv.reader(data1)
