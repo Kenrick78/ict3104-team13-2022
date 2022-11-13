@@ -62,7 +62,9 @@ Required steps to do inside test.py (In progress not done yet):
 - Method to map with annotations
 
 Video Inference Result (Refer to outputP02T01C06 in file):
-![image](https://user-images.githubusercontent.com/77533235/201487372-0ce32b08-f559-4644-8010-272412805ff4.png)
+
+https://user-images.githubusercontent.com/77533235/201526818-758d93af-7e43-41ca-a060-557d10dc58c0.mp4
+
 
 ### Visualisation using wandb.ai
 - wandb.ai requires login account information and apikey (use your own)
@@ -86,6 +88,8 @@ Usages:
 ### Current Visualisation Results are shown:
 ![image](https://user-images.githubusercontent.com/77533235/201488124-7772d070-4c23-476d-92f8-ffe30dfb34a9.png)
 
+### STEP Inferencing Results
+https://user-images.githubusercontent.com/77533235/201526720-84e632c4-5909-474c-9b02-ebc075190ba5.mp4
 
 
 
